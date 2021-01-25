@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= <device-width>, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" href="https://use.typekit.net/yhy3vmw.css" href="https://use.typekit.net/ryf2ary.css">
+    <title>Mega Makeover</title>
+</head>
+<body>
+
+  <header>
+    <h1>Mega Makeover</h1>
+    <button id="modusKnop" >Dark/Light mode</button>
+  </header>
+
+  <form action="verwerk.php" id='naamformulier'>
+      <div>
+          <label for="naam poppetje">Naam poppetje:</label>
+          <input type="text" name='naam' id='naam' value=''>
+          <input class="button" type='submit' name='submit'>
+      </div>
+  </form>
+
+  <section>
+    <p>Budget: <span id='budgetTekst'> Huidig budget. </span> </p>
+  </section>
+
+  <button id='hogerBudget'>Werken</button>
+
+  <section id="keuzes">
+      <fieldset>
+          <legend><a>Kapsel</a></legend>
+          <button id="fro"  >Afro</button>
+          <button id="lang" >Lang</button>        
+          <button id="kuifje" >Roze Kuif</button>
+          <button id="bob" >Bobline</button>
+      </fieldset>
+
+      <fieldset>
+          <legend>Huidskleur</legend>
+          <button id="blauwpoppetje" >Blauw</button>
+          <button id="groenpoppetje" >Groen</button>        
+          <button id="rozepoppetje" >Roze</button>
+          <button id="roodpoppetje" >Rood</button>
+      </fieldset>
+
+      <fieldset>
+        <legend>Schoenen</legend>
+        <button id="gympenschoenen" >Gympen</button>
+        <button id="bootsschoenen" > Boots </button>
+        <button id="verschillendeschoenen" >Verschillende</button>
+        <button id="kersthakken" >Hakken</button>
+      </fieldset>
+
+      <fieldset>
+        <legend>Outfit</legend>
+        <button id="groeneoutfit" >Neon two-piece</button>
+        <button id="galaoutfit" >Gala outfit</button>
+        <button id="hartjesoutfit" >Hartjesjurk</button>
+        <button id="zomeroutfit" >Zomer outfit</button>
+      </fieldset>
+  </section>
+
+  <section id="resultaten">
+      <section class='makeover'>
+        <p id='poppetjesnaam'>Wil je mij een naam geven? </p>
+      </section>
+
+      <section id='poppetjepreview'>
+          <figure class="poppetje"> 
+              <img src="images/bob.png" alt="bobline kapsel" id="kapsel">
+              <img src="images/blauwpoppetje.png" alt="blauwe huidskleur" id="huidskleur" >
+              <img src="images/verschillend.png" alt="verschillende schoenen" id="schoenen" >
+              <img src="images/zomeroutfit.png" alt="zomer outfit" id="outfit" >
+          </figure>
+      </section>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
